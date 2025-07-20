@@ -1,0 +1,932 @@
+[
+  {
+    "firstName": "Sofía",
+    "lastName": "Ramírez",
+    "email": "sofia.ramirez@example.com",
+    "phoneNumber": "+525511223344",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Avenida Reforma",
+      "number": "101",
+      "city": "Ciudad de México",
+      "postalCode": "06500"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=sofia.ramirez@example.com"
+  },
+  {
+    "firstName": "Diego",
+    "lastName": "Hernández",
+    "email": "diego.hernandez@example.com",
+    "phoneNumber": "+528122334455",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Calle Morelos",
+      "number": "205",
+      "city": "Monterrey",
+      "postalCode": "64000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=diego.hernandez@example.com"
+  },
+  {
+    "firstName": "Valentina",
+    "lastName": "Morales",
+    "email": "valentina.morales@example.com",
+    "phoneNumber": "+523311223344",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Juárez",
+      "number": "310",
+      "city": "Guadalajara",
+      "postalCode": "44100"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=valentina.morales@example.com"
+  },
+  {
+    "firstName": "Ricardo",
+    "lastName": "Vargas",
+    "email": "ricardo.vargas@example.com",
+    "phoneNumber": "+529981234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Tulum",
+      "number": "45",
+      "city": "Cancún",
+      "postalCode": "77500"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=ricardo.vargas@example.com"
+  },
+  {
+    "firstName": "Camila",
+    "lastName": "Sánchez",
+    "email": "camila.sanchez@example.com",
+    "phoneNumber": "+526645678901",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Paseo de los Héroes",
+      "number": "15",
+      "city": "Tijuana",
+      "postalCode": "22010"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=camila.sanchez@example.com"
+  },
+  {
+    "firstName": "Javier",
+    "lastName": "Ortega",
+    "email": "javier.ortega@example.com",
+    "phoneNumber": "+524423456789",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "5 de Febrero",
+      "number": "88",
+      "city": "Querétaro",
+      "postalCode": "76000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=javier.ortega@example.com"
+  },
+  {
+    "firstName": "Isabella",
+    "lastName": "Cruz",
+    "email": "isabella.cruz@example.com",
+    "phoneNumber": "+522221234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Revolución",
+      "number": "77",
+      "city": "Puebla",
+      "postalCode": "72000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=isabella.cruz@example.com"
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Romero",
+    "email": "gabriel.romero@example.com",
+    "phoneNumber": "+529992345678",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Paseo Montejo",
+      "number": "100",
+      "city": "Mérida",
+      "postalCode": "97000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=gabriel.romero@example.com"
+  },
+  {
+    "firstName": "Ximena",
+    "lastName": "Torres",
+    "email": "ximena.torres@example.com",
+    "phoneNumber": "+526141234567",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Libertad",
+      "number": "333",
+      "city": "Chihuahua",
+      "postalCode": "31000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=ximena.torres@example.com"
+  },
+  {
+    "firstName": "Leonardo",
+    "lastName": "Flores",
+    "email": "leonardo.flores@example.com",
+    "phoneNumber": "+526567890123",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Avenida 16 de Septiembre",
+      "number": "50",
+      "city": "Ciudad Juárez",
+      "postalCode": "32000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=leonardo.flores@example.com"
+  },
+  {
+    "firstName": "Mariana",
+    "lastName": "Gutiérrez",
+    "email": "mariana.gutierrez@example.com",
+    "phoneNumber": "+527778901234",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Morelos",
+      "number": "777",
+      "city": "Cuernavaca",
+      "postalCode": "62000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=mariana.gutierrez@example.com"
+  },
+  {
+    "firstName": "Daniel",
+    "lastName": "Herrera",
+    "email": "daniel.herrera@example.com",
+    "phoneNumber": "+524771234567",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Blvd. Adolfo López Mateos",
+      "number": "200",
+      "city": "León",
+      "postalCode": "37000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=daniel.herrera@example.com"
+  },
+  {
+    "firstName": "Andrea",
+    "lastName": "Díaz",
+    "email": "andrea.diaz@example.com",
+    "phoneNumber": "+526123456789",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Álvaro Obregón",
+      "number": "55",
+      "city": "La Paz",
+      "postalCode": "23000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=andrea.diaz@example.com"
+  },
+  {
+    "firstName": "Manuel",
+    "lastName": "Nuñez",
+    "email": "manuel.nunez@example.com",
+    "phoneNumber": "+528331234567",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Avenida Hidalgo",
+      "number": "10",
+      "city": "Tampico",
+      "postalCode": "89000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=manuel.nunez@example.com"
+  },
+  {
+    "firstName": "Victoria",
+    "lastName": "Pérez",
+    "email": "victoria.perez@example.com",
+    "phoneNumber": "+529512345678",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Independencia",
+      "number": "150",
+      "city": "Oaxaca",
+      "postalCode": "68000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=victoria.perez@example.com"
+  },
+  {
+    "firstName": "Fernando",
+    "lastName": "Reyes",
+    "email": "fernando.reyes@example.com",
+    "phoneNumber": "+522298765432",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Malecón",
+      "number": "1",
+      "city": "Veracruz",
+      "postalCode": "91700"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=fernando.reyes@example.com"
+  },
+  {
+    "firstName": "Regina",
+    "lastName": "Mendoza",
+    "email": "regina.mendoza@example.com",
+    "phoneNumber": "+524432109876",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Acueducto",
+      "number": "99",
+      "city": "Morelia",
+      "postalCode": "58000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=regina.mendoza@example.com"
+  },
+  {
+    "firstName": "Carlos",
+    "lastName": "Guerrero",
+    "email": "carlos.guerrero@example.com",
+    "phoneNumber": "+527441234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Costera Miguel Alemán",
+      "number": "10",
+      "city": "Acapulco",
+      "postalCode": "39300"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=carlos.guerrero@example.com"
+  },
+  {
+    "firstName": "Lucía",
+    "lastName": "Salazar",
+    "email": "lucia.salazar@example.com",
+    "phoneNumber": "+528712345678",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Blvd. Independencia",
+      "number": "500",
+      "city": "Torreón",
+      "postalCode": "27000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=lucia.salazar@example.com"
+  },
+  {
+    "firstName": "Alejandro",
+    "lastName": "Castillo",
+    "email": "alejandro.castillo@example.com",
+    "phoneNumber": "+529612345678",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Central",
+      "number": "2",
+      "city": "Tuxtla Gutiérrez",
+      "postalCode": "29000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=alejandro.castillo@example.com"
+  },
+  {
+    "firstName": "Natalia",
+    "lastName": "Valencia",
+    "email": "natalia.valencia@example.com",
+    "phoneNumber": "+526621234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Rosales",
+      "number": "123",
+      "city": "Hermosillo",
+      "postalCode": "83000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=natalia.valencia@example.com"
+  },
+  {
+    "firstName": "Sergio",
+    "lastName": "Medina",
+    "email": "sergio.medina@example.com",
+    "phoneNumber": "+528991234567",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Calle del Río",
+      "number": "456",
+      "city": "Reynosa",
+      "postalCode": "88700"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=sergio.medina@example.com"
+  },
+  {
+    "firstName": "Emilia",
+    "lastName": "Montes",
+    "email": "emilia.montes@example.com",
+    "phoneNumber": "+526182345678",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "20 de Noviembre",
+      "number": "78",
+      "city": "Durango",
+      "postalCode": "34000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=emilia.montes@example.com"
+  },
+  {
+    "firstName": "Jorge",
+    "lastName": "Delgado",
+    "email": "jorge.delgado@example.com",
+    "phoneNumber": "+529931234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Paseo Tabasco",
+      "number": "100",
+      "city": "Villahermosa",
+      "postalCode": "86000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=jorge.delgado@example.com"
+  },
+  {
+    "firstName": "Paula",
+    "lastName": "Rojas",
+    "email": "paula.rojas@example.com",
+    "phoneNumber": "+524491234567",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Madero",
+      "number": "50",
+      "city": "Aguascalientes",
+      "postalCode": "20000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=paula.rojas@example.com"
+  },
+  {
+    "firstName": "Arturo",
+    "lastName": "Luna",
+    "email": "arturo.luna@example.com",
+    "phoneNumber": "+528441234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Blvd. Venustiano Carranza",
+      "number": "300",
+      "city": "Saltillo",
+      "postalCode": "25000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=arturo.luna@example.com"
+  },
+  {
+    "firstName": "Valeria",
+    "lastName": "Guerrero",
+    "email": "valeria.guerrero@example.com",
+    "phoneNumber": "+526861234567",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "López Mateos",
+      "number": "25",
+      "city": "Mexicali",
+      "postalCode": "21000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=valeria.guerrero@example.com"
+  },
+  {
+    "firstName": "Sebastián",
+    "lastName": "Soto",
+    "email": "sebastian.soto@example.com",
+    "phoneNumber": "+526671234567",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Álvaro Obregón",
+      "number": "10",
+      "city": "Culiacán",
+      "postalCode": "80000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=sebastian.soto@example.com"
+  },
+  {
+    "firstName": "Sofía",
+    "lastName": "Márquez",
+    "email": "sofia.marquez@example.com",
+    "phoneNumber": "+527221234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Lerdo de Tejada",
+      "number": "1",
+      "city": "Toluca",
+      "postalCode": "50000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=sofia.marquez@example.com"
+  },
+  {
+    "firstName": "Mateo",
+    "lastName": "Delgado",
+    "email": "mateo.delgado@example.com",
+    "phoneNumber": "+524612345678",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Miguel Hidalgo",
+      "number": "99",
+      "city": "Celaya",
+      "postalCode": "38000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=mateo.delgado@example.com"
+  },
+  {
+    "firstName": "Jimena",
+    "lastName": "Contreras",
+    "email": "jimena.contreras@example.com",
+    "phoneNumber": "+527711234567",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Guerrero",
+      "number": "20",
+      "city": "Pachuca",
+      "postalCode": "42000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=jimena.contreras@example.com"
+  },
+  {
+    "firstName": "Diego",
+    "lastName": "Salinas",
+    "email": "diego.salinas@example.com",
+    "phoneNumber": "+529812345678",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Malecón de la Ciudad",
+      "number": "5",
+      "city": "Campeche",
+      "postalCode": "24000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=diego.salinas@example.com"
+  },
+  {
+    "firstName": "Mariana",
+    "lastName": "Ramírez",
+    "email": "mariana.ramirez@example.com",
+    "phoneNumber": "+528681234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Avenida Lauro Villar",
+      "number": "1",
+      "city": "Matamoros",
+      "postalCode": "87300"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=mariana.ramirez@example.com"
+  },
+  {
+    "firstName": "José",
+    "lastName": "Padilla",
+    "email": "jose.padilla@example.com",
+    "phoneNumber": "+526312345678",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Carretera Internacional",
+      "number": "50",
+      "city": "Nogales",
+      "postalCode": "84000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=jose.padilla@example.com"
+  },
+  {
+    "firstName": "Valeria",
+    "lastName": "Jiménez",
+    "email": "valeria.jimenez@example.com",
+    "phoneNumber": "+524921234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Hidalgo",
+      "number": "10",
+      "city": "Zacatecas",
+      "postalCode": "98000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=valeria.jimenez@example.com"
+  },
+  {
+    "firstName": "Santiago",
+    "lastName": "Ramos",
+    "email": "santiago.ramos@example.com",
+    "phoneNumber": "+523121234567",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Madero",
+      "number": "1",
+      "city": "Colima",
+      "postalCode": "28000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=santiago.ramos@example.com"
+  },
+  {
+    "firstName": "Ana",
+    "lastName": "González",
+    "email": "ana.gonzalez@example.com",
+    "phoneNumber": "+525512345678",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Avenida Siempre Viva",
+      "number": "123",
+      "city": "Ciudad de México",
+      "postalCode": "01000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=ana.gonzalez@example.com"
+  },
+  {
+    "firstName": "Pablo",
+    "lastName": "Ruiz",
+    "email": "pablo.ruiz@example.com",
+    "phoneNumber": "+528187654321",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Constitución",
+      "number": "456",
+      "city": "Monterrey",
+      "postalCode": "64000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=pablo.ruiz@example.com"
+  },
+  {
+    "firstName": "Laura",
+    "lastName": "López",
+    "email": "laura.lopez@example.com",
+    "phoneNumber": "+523398765432",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Vallarta",
+      "number": "789",
+      "city": "Guadalajara",
+      "postalCode": "44100"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=laura.lopez@example.com"
+  },
+  {
+    "firstName": "Miguel",
+    "lastName": "Díaz",
+    "email": "miguel.diaz@example.com",
+    "phoneNumber": "+529987654321",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Kukulkán",
+      "number": "77",
+      "city": "Cancún",
+      "postalCode": "77500"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=miguel.diaz@example.com"
+  },
+  {
+    "firstName": "Carolina",
+    "lastName": "Navarro",
+    "email": "carolina.navarro@example.com",
+    "phoneNumber": "+526641239876",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Revolución",
+      "number": "20",
+      "city": "Tijuana",
+      "postalCode": "22010"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=carolina.navarro@example.com"
+  },
+  {
+    "firstName": "Andrés",
+    "lastName": "Castro",
+    "email": "andres.castro@example.com",
+    "phoneNumber": "+524429876543",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Tecnológico",
+      "number": "10",
+      "city": "Querétaro",
+      "postalCode": "76000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=andres.castro@example.com"
+  },
+  {
+    "firstName": "Victoria",
+    "lastName": "Serrano",
+    "email": "victoria.serrano@example.com",
+    "phoneNumber": "+522228765432",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Blvd. 5 de Mayo",
+      "number": "30",
+      "city": "Puebla",
+      "postalCode": "72000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=victoria.serrano@example.com"
+  },
+  {
+    "firstName": "Juan",
+    "lastName": "Rivas",
+    "email": "juan.rivas@example.com",
+    "phoneNumber": "+529997654321",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Prolongación Paseo Montejo",
+      "number": "200",
+      "city": "Mérida",
+      "postalCode": "97000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=juan.rivas@example.com"
+  },
+  {
+    "firstName": "Elena",
+    "lastName": "Vega",
+    "email": "elena.vega@example.com",
+    "phoneNumber": "+526148765432",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Avenida Universidad",
+      "number": "50",
+      "city": "Chihuahua",
+      "postalCode": "31000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=elena.vega@example.com"
+  },
+  {
+    "firstName": "Luis",
+    "lastName": "Paz",
+    "email": "luis.paz@example.com",
+    "phoneNumber": "+526561239876",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Francisco Villa",
+      "number": "100",
+      "city": "Ciudad Juárez",
+      "postalCode": "32000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=luis.paz@example.com"
+  },
+  {
+    "firstName": "Daniela",
+    "lastName": "Salas",
+    "email": "daniela.salas@example.com",
+    "phoneNumber": "+527776543210",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Avenida Cuauhtémoc",
+      "number": "555",
+      "city": "Cuernavaca",
+      "postalCode": "62000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=daniela.salas@example.com"
+  },
+  {
+    "firstName": "Felipe",
+    "lastName": "Molina",
+    "email": "felipe.molina@example.com",
+    "phoneNumber": "+524779876543",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Blvd. Guanajuato",
+      "number": "10",
+      "city": "León",
+      "postalCode": "37000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=felipe.molina@example.com"
+  },
+  {
+    "firstName": "Gaby",
+    "lastName": "Soto",
+    "email": "gaby.soto@example.com",
+    "phoneNumber": "+526129876543",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Francisco I. Madero",
+      "number": "20",
+      "city": "La Paz",
+      "postalCode": "23000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=gaby.soto@example.com"
+  },
+  {
+    "firstName": "Rodrigo",
+    "lastName": "Aguilar",
+    "email": "rodrigo.aguilar@example.com",
+    "phoneNumber": "+528339876543",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Benito Juárez",
+      "number": "30",
+      "city": "Tampico",
+      "postalCode": "89000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=rodrigo.aguilar@example.com"
+  },
+  {
+    "firstName": "Sara",
+    "lastName": "Blanco",
+    "email": "sara.blanco@example.com",
+    "phoneNumber": "+529518765432",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "5 de Mayo",
+      "number": "88",
+      "city": "Oaxaca",
+      "postalCode": "68000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=sara.blanco@example.com"
+  },
+  {
+    "firstName": "Armando",
+    "lastName": "Rubio",
+    "email": "armando.rubio@example.com",
+    "phoneNumber": "+522291238765",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Miguel Alemán",
+      "number": "5",
+      "city": "Veracruz",
+      "postalCode": "91700"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=armando.rubio@example.com"
+  },
+  {
+    "firstName": "Luciana",
+    "lastName": "Paredes",
+    "email": "luciana.paredes@example.com",
+    "phoneNumber": "+524438765432",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Francisco Madero",
+      "number": "11",
+      "city": "Morelia",
+      "postalCode": "58000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=luciana.paredes@example.com"
+  },
+  {
+    "firstName": "Pedro",
+    "lastName": "Cortez",
+    "email": "pedro.cortez@example.com",
+    "phoneNumber": "+527448765432",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Avenida Cuauhtémoc",
+      "number": "22",
+      "city": "Acapulco",
+      "postalCode": "39300"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=pedro.cortez@example.com"
+  },
+  {
+    "firstName": "Alejandra",
+    "lastName": "Silva",
+    "email": "alejandra.silva@example.com",
+    "phoneNumber": "+528718765432",
+    "role": "User",
+    "status": "Inactive",
+    "address": {
+      "street": "Blvd. Revolución",
+      "number": "700",
+      "city": "Torreón",
+      "postalCode": "27000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=alejandra.silva@example.com"
+  },
+  {
+    "firstName": "Marco",
+    "lastName": "Leal",
+    "email": "marco.leal@example.com",
+    "phoneNumber": "+529618765432",
+    "role": "Admin",
+    "status": "Active",
+    "address": {
+      "street": "Calle Central",
+      "number": "3",
+      "city": "Tuxtla Gutiérrez",
+      "postalCode": "29000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=marco.leal@example.com"
+  },
+  {
+    "firstName": "Silvia",
+    "lastName": "Guzmán",
+    "email": "silvia.guzman@example.com",
+    "phoneNumber": "+526628765432",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Bulevar Encinas",
+      "number": "100",
+      "city": "Hermosillo",
+      "postalCode": "83000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=silvia.guzman@example.com"
+  },
+  {
+    "firstName": "Hector",
+    "lastName": "Ortiz",
+    "email": "hector.ortiz@example.com",
+    "phoneNumber": "+528998765432",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Blvd. Morelos",
+      "number": "10",
+      "city": "Reynosa",
+      "postalCode": "88700"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=hector.ortiz@example.com"
+  },
+  {
+    "firstName": "Fernanda",
+    "lastName": "Guerrero",
+    "email": "fernanda.guerrero@example.com",
+    "phoneNumber": "+526188765432",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Constitución",
+      "number": "15",
+      "city": "Durango",
+      "postalCode": "34000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=fernanda.guerrero@example.com"
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "Chávez",
+    "email": "mario.chavez@example.com",
+    "phoneNumber": "+529938765432",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Paseo de la Sierra",
+      "number": "5",
+      "city": "Villahermosa",
+      "postalCode": "86000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=mario.chavez@example.com"
+  },
+  {
+    "firstName": "Brenda",
+    "lastName": "Solís",
+    "email": "brenda.solis@example.com",
+    "phoneNumber": "+524498765432",
+    "role": "Admin",
+    "status": "Inactive",
+    "address": {
+      "street": "Benito Juárez",
+      "number": "10",
+      "city": "Aguascalientes",
+      "postalCode": "20000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=brenda.solis@example.com"
+  },
+  {
+    "firstName": "Oscar",
+    "lastName": "Márquez",
+    "email": "oscar.marquez@example.com",
+    "phoneNumber": "+528448765432",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "Mariano Escobedo",
+      "number": "100",
+      "city": "Saltillo",
+      "postalCode": "25000"
+    },
+    "profilePicture": "https://i.pravatar.cc/150?u=oscar.marquez@example.com"
+  }
+]

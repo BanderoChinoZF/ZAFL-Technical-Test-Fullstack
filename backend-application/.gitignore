@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+.npmrc
+/dist/
+/build/
+
+# IDEs y Editores de Código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Entorno y Configuración
+.env
+.env.
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+coverage/
+
+# Misceláneos
+.nyc_output/ 
+.eslintcache 
+.prettierignore
+.history/ 
+*.pem
+*.key
+*.crt
+*.dump
+core
