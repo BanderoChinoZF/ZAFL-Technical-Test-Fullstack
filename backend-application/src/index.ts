@@ -3,12 +3,15 @@ import connectDB from "./config/database";
 import userRoutes from "./routes/Users.routes";
 import authRoutes from "./auth/auth.routes";
 import { authMiddleware } from "./auth/auth.middleware";
+import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Conectar a la base de datos
 connectDB();
+
+app.use(cors());
 
 app.use(express.json());
 
@@ -22,3 +25,4 @@ app.get("/", (req: Request, res: Response) => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
